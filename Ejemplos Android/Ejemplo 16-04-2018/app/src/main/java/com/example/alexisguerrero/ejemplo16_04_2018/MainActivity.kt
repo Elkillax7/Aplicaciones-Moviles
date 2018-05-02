@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        texto_central.text = "PRUEBA DE CAMBIO DE TEXTO"
+        setContentView(R.layout.activity_main)
+        texto_central.text = "Adios"
 
         var valorTextoCentral : CharSequence = texto_central.text
 
@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("clase","Esto es un debug")
         Log.i("clase","Esto es un info")
         Log.v("clase","Esto es un verbose")
-        setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
